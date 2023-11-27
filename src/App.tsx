@@ -43,8 +43,7 @@ function App() {
           <div className="author-description">
             <h2>António Machado</h2>
             <p>
-              Trata-se do meu livro de poesia começado a escrever em 1977 e que se apresenta no dia 7 de dezembro de 2023, quinta-feira pelas 17h, em Braga na Biblioteca da Faculdade de Filosofia e
-              Ciências Sociais - Padre Júlio Fragata SJ na Universidade Católica Portuguesa - Centro Regional de Braga.
+            António Machado, nascido a 18 de abril de 1965, é um engenheiro de sistemas respeitado, formado pela Universidade do Minho em 1988. Desenvolveu a sua carreira na área de TI, desempenhando funções como Diretor de TI na Coelima Indústrias Têxteis e Gestor de TI na Felpinter. Atualmente, é engenheiro de sistemas na Universidade Católica Portuguesa, em Braga, onde contribui de forma significativa para a inovação e tecnologia no sector educativo.
             </p>
           </div>
           <img src={authorImage} className="author-image" alt="Foto do autor António Machado" />
@@ -52,7 +51,7 @@ function App() {
         <div className="sell-section" id="sell-section">
           <div className="sell-description">
             <h2>Como adiquir seu livro</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p>Reserve já a sua cópia de "Quarto de Costura" e mergulhe numa jornada inesquecível! Clique no botão abaixo para ser direcionado a uma página com todos os detalhes da compra e um formulário para o contactarmos. Não perca esta oportunidade de se conectar com esta obra extraordinária.</p>
           </div>
           <div className="sell-btn">
             <BtnComprar />
