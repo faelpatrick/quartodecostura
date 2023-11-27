@@ -33,8 +33,7 @@ function App() {
           <div className="book-description">
             <h2>Quarto de Costura</h2>
             <p>
-              Trata-se do meu livro de poesia começado a escrever em 1977 e que se apresenta no dia 7 de dezembro, quinta-feira pelas 17h, em Braga na Biblioteca da Faculdade de Filosofia e Ciências
-              Sociais - Padre Júlio Fragata SJ na Universidade Católica Portuguesa - Centro Regional de Braga.
+            Este é o meu livro de poesia, iniciado em 1977, que será apresentado no dia 7 de dezembro, quinta-feira, às 17h, em Braga, na Biblioteca da Faculdade de Filosofia e Ciências Sociais - Padre Júlio Fragata SJ, na Universidade Católica Portuguesa - Centro Regional de Braga. Uma obra que promete tocar as almas através das palavras, revelando a beleza e profundidade dos sentimentos humanos. Venha descobrir um universo poético único e deixe-se envolver pela magia da poesia que atravessa décadas. Será uma oportunidade ímpar de se conectar com a essência da lírica portuguesa contemporânea.
             </p>
             <BtnComprar />
           </div>
