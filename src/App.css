@@ -110,6 +110,9 @@ img.author-image {
   cursor: pointer;
   border-radius: 12px;
   text-transform: uppercase;
+  width: 14em;
+  height: 4em;
+  font-weight: 600;
 }
 
 .purchase-button:hover {
