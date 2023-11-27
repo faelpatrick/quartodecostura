@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.a77aca3f.css",
-    "main.js": "/static/js/main.ff90dd0d.js",
+    "main.css": "/static/css/main.66345c92.css",
+    "main.js": "/static/js/main.3907100d.js",
     "static/media/Autor_Livro_Quarto_de_Costura.png": "/static/media/Autor_Livro_Quarto_de_Costura.beae109f02bce366b75d.png",
     "static/media/Capa_Livro_Quarto_de_Costura.png": "/static/media/Capa_Livro_Quarto_de_Costura.952de21737e489d46ae5.png",
     "index.html": "/index.html",
-    "main.a77aca3f.css.map": "/static/css/main.a77aca3f.css.map",
-    "main.ff90dd0d.js.map": "/static/js/main.ff90dd0d.js.map"
+    "main.66345c92.css.map": "/static/css/main.66345c92.css.map",
+    "main.3907100d.js.map": "/static/js/main.3907100d.js.map"
   },
   "entrypoints": [
-    "static/css/main.a77aca3f.css",
-    "static/js/main.ff90dd0d.js"
+    "static/css/main.66345c92.css",
+    "static/js/main.3907100d.js"
   ]
 }

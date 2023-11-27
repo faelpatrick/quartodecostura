@@ -15,21 +15,67 @@
 .App-link {
   color: #61dafb;
 }
+nav {
+  margin: 0;
+  padding: 1rem 0;
+  overflow: hidden;
+  width: 100%;
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #00000020;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
-.book-section,
-.author-section {
   display: flex;
-  align-content: space-around;
-  justify-content: space-around;
-  flex-direction: row;
+  justify-content: center;
   align-items: center;
-  padding: 4rem;
-  width: 80%;
+  gap: 2rem;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+  width: 100%;
+}
+nav a {
+  text-decoration: none;
+  color: #000000;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.book-section,
+.author-section,
+.sell-section {
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+  align-items: center;
+  justify-content: space-around;
+  text-align: justify;
+  padding: 2rem;
+  justify-items: center;
+  width: 90%;
 }
 
 img.book-image,
 img.author-image {
-  height: 400px;
+  max-height: 400px;
+}
+@media (max-width: 768px) {
+  .book-section,
+  .author-section,
+  .sell-section {
+    flex-direction: column;
+    width: 80%;
+  }
+  img.book-image,
+  img.author-image {
+    max-height: 300px;
+    margin: auto;
+  }
 }
 .book-section,
 .author-section,
@@ -37,19 +83,15 @@ img.author-image {
   margin: 2rem;
   background-color: #f5f5f5;
   border: 1px solid #00000020;
-  height: 60vh;
-
   border-radius: 14px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .author-description,
 .book-description,
 .sell-description {
-  padding: 4rem;
   text-align: justify;
   border-radius: 14px;
   line-height: 2;
-  margin: 2rem;
 }
 
 .purchase-button {
@@ -73,7 +115,6 @@ img.author-image {
   color: #ffffff;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   transition: all 0.3s ease-in-out;
-
 }
 
 @keyframes App-logo-spin {

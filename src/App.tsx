@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-
+import Nav from "./components/Nav";
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 import dotenv from "dotenv";
@@ -26,18 +26,25 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <Nav />
         <div className="book-section">
           <img src={bookImage} className="book-image" alt="Capa do livro Quarto de Costura" />
           <div className="book-description">
             <h2>Quarto de Costura</h2>
-            <p>Trata-se do meu livro de poesia começado a escrever em 1977 e que se apresenta no dia 7 de dezembro, quinta-feira pelas 17h, em Braga na Biblioteca da Faculdade de Filosofia e Ciências Sociais - Padre Júlio Fragata SJ na Universidade Católica Portuguesa - Centro Regional de Braga.</p>
+            <p>
+              Trata-se do meu livro de poesia começado a escrever em 1977 e que se apresenta no dia 7 de dezembro, quinta-feira pelas 17h, em Braga na Biblioteca da Faculdade de Filosofia e Ciências
+              Sociais - Padre Júlio Fragata SJ na Universidade Católica Portuguesa - Centro Regional de Braga.
+            </p>
             <BtnComprar />
           </div>
         </div>
         <div className="author-section">
           <div className="author-description">
             <h2>António Machado</h2>
-            <p>Trata-se do meu livro de poesia começado a escrever em 1977 e que se apresenta no dia 7 de dezembro de 2023, quinta-feira pelas 17h, em Braga na Biblioteca da Faculdade de Filosofia e Ciências Sociais - Padre Júlio Fragata SJ na Universidade Católica Portuguesa - Centro Regional de Braga.</p>
+            <p>
+              Trata-se do meu livro de poesia começado a escrever em 1977 e que se apresenta no dia 7 de dezembro de 2023, quinta-feira pelas 17h, em Braga na Biblioteca da Faculdade de Filosofia e
+              Ciências Sociais - Padre Júlio Fragata SJ na Universidade Católica Portuguesa - Centro Regional de Braga.
+            </p>
           </div>
           <img src={authorImage} className="author-image" alt="Foto do autor António Machado" />
         </div>
