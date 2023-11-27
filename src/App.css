@@ -2,30 +2,78 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #000000;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.book-section,
+.author-section {
+  display: flex;
+  align-content: space-around;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  padding: 4rem;
+  width: 80%;
+}
+
+img.book-image,
+img.author-image {
+  height: 400px;
+}
+.book-section,
+.author-section,
+.sell-section {
+  margin: 2rem;
+  background-color: #f5f5f5;
+  border: 1px solid #00000020;
+  height: 60vh;
+
+  border-radius: 14px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.author-description,
+.book-description,
+.sell-description {
+  padding: 4rem;
+  text-align: justify;
+  border-radius: 14px;
+  line-height: 2;
+  margin: 2rem;
+}
+
+.purchase-button {
+  background-color: #000000;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  text-transform: uppercase;
+}
+
+.purchase-button:hover {
+  background-color: green;
+  border: 1px solid #00000020;
+  color: #ffffff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: all 0.3s ease-in-out;
+
 }
 
 @keyframes App-logo-spin {
