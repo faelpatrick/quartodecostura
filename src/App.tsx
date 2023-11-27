@@ -59,6 +59,9 @@ function App() {
           <br />
         </div>
       </header>
+      <footer>
+        <p>&copy; Site desenvolvido por <a href="https://linktr.ee/faelpatrick" target="_blank">Rafael Patrick de Souza</a></p>
+      </footer>
     </div>
   );
 }
