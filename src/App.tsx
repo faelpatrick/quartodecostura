@@ -4,6 +4,7 @@ import Nav from "./components/Nav";
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 import dotenv from "dotenv";
+import { Analytics } from "@vercel/analytics/react";
 
 import bookImage from "./assets/img/Capa_Livro_Quarto_de_Costura.png";
 import authorImage from "./assets/img/Autor_Livro_Quarto_de_Costura.png";
@@ -60,8 +61,14 @@ function App() {
         </div>
       </header>
       <footer>
-        <p>&copy; Site desenvolvido por <a href="https://linktr.ee/faelpatrick" target="_blank">Rafael Patrick de Souza</a></p>
+        <p>
+          &copy; Site desenvolvido por{" "}
+          <a href="https://linktr.ee/faelpatrick" target="_blank">
+            Rafael Patrick de Souza
+          </a>
+        </p>
       </footer>
+      <Analytics />
     </div>
   );
 }
