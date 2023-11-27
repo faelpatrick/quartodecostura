@@ -5,13 +5,13 @@ const Nav = () => {
         <nav>
             <ul>
                 <li>
-                    <a href="#book-section">Livro</a>
+                    <a href="#book">Livro</a>
                 </li>
                 <li>
-                    <a href="#author-section">Autor</a>
+                    <a href="#author">Autor</a>
                 </li>
                 <li>
-                    <a href="#sell-section">Compar</a>
+                    <a href="#sell">Compar</a>
                 </li>
             </ul>
         </nav>
