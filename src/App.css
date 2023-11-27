@@ -63,7 +63,10 @@ nav a {
 img.book-image,
 img.author-image {
   max-height: 400px;
+  border: solid 6px #ffffff;
+  box-shadow: 1px 1px 6px 1px #00000029;
 }
+
 @media (max-width: 768px) {
   .book-section,
   .author-section,

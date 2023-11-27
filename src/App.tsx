@@ -27,7 +27,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Nav />
-        <div className="book-section">
+        <div className="book-section" id="book-section">
           <img src={bookImage} className="book-image" alt="Capa do livro Quarto de Costura" />
           <div className="book-description">
             <h2>Quarto de Costura</h2>
@@ -38,7 +38,7 @@ function App() {
             <BtnComprar />
           </div>
         </div>
-        <div className="author-section">
+        <div className="author-section" id="author-section">
           <div className="author-description">
             <h2>António Machado</h2>
             <p>
@@ -48,7 +48,7 @@ function App() {
           </div>
           <img src={authorImage} className="author-image" alt="Foto do autor António Machado" />
         </div>
-        <div className="sell-section">
+        <div className="sell-section" id="sell-section">
           <div className="sell-description">
             <h2>Como adiquir seu livro</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
